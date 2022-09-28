@@ -1,6 +1,5 @@
-.centered-block {
-  display: block;
-  margin: auto;
-  max-height: 500px;
-  max-width: 500px;
+.content-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
 }
