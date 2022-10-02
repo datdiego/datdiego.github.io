@@ -24,7 +24,9 @@ nav {
 
 nav ul {
 	display: inline-block;
-	padding-inline-start: 0px;
+	padding-inline-star: 0px;
+	margin-block-start: 8px;
+    	margin-block-end: 8px;
 }
 
 nav li {
