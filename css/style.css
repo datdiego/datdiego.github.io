@@ -46,3 +46,29 @@ nav li a {
 nav li a:hover{
 	color: blue;
 }
+
+
+.container{
+	max-width: 1200px;
+	text-align: justify;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+.container p{
+	padding: 2px;
+	line-height: 1.5;
+}
+
+.container h3{
+	text-align: center;
+}
+
+.resume{
+	max-width: 1200px;
+	text-align: justify;
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 1.5;
+
+}
