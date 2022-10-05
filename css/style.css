@@ -10,13 +10,14 @@ body {
 	width: 200px;
 	height: 200px;
 	border-radius:100%;
+	margin: 8px;
 
 }
 
 nav {
 	float: center;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	border-top: 2px solid black;
 	border-bottom: 2px solid black;
 
@@ -50,9 +51,9 @@ nav li a:hover{
 
 .container{
 	max-width: 1200px;
-	text-align: justify;
-	margin-left: 10%;
-	margin-right: 10%;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 5%;
 
 }
 .container p{
@@ -66,8 +67,8 @@ nav li a:hover{
 
 footer {
 	border-top: 1px solid black;
-	margin-right: 10%;
-	margin-left: 10%;
+	margin-right: 5%;
+	margin-left: 5%;
 	text-align: center;
 	color: gray;
 
@@ -75,9 +76,9 @@ footer {
 
 .resume{
 	max-width: 1200px;
-	text-align: justify;
-	margin-left: 10% !important;
-	margin-right: 10%;
+	text-align: left;
+	margin-left: 5% !important;
+	margin-right: 5%;
 	line-height: 1.5;
 
 }
@@ -103,14 +104,18 @@ footer {
 	border-top: 1px solid lightgray;
 }
 
-.work-experience h5{
+.work-company{
+	margin-top: 8px;
+	margin-bottom: 1px;
+
+}
+
+.work-address{
+	margin-top: 1px;
+	margin-bottom: 4px;
+}
+
+.work-position{
+	text-decoration: underline;
 	font-style: italic;
-}
-
-.work-site{
-	line-height: .1;
-}
-
-.work-site h5{
-	font-style: normal !important;
 }
