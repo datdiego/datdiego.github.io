@@ -41,7 +41,7 @@ menu:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "ramblings of a scientist"
   author: Diego Alducin
   # author: ["Me", "You"] # multiple authors
 
@@ -62,7 +62,7 @@ params:
   images: ["images/papermod-cover.png"]
 
   homeInfoParams:
-    Title: "datdiego"
+    Title: "hi!"
     Content: >
       👋 Welcome to demo page of Hugo's theme PaperMod!
 
