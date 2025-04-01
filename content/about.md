@@ -8,4 +8,6 @@ TocOpen: false
 disableShare: true
 ---
 
-## tests
+
+
+[Download my Resume](../static/files/DiegoAlducin_resume_Apr2025.pdf)

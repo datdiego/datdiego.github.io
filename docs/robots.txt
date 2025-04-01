@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://datdiego.github.io/sitemap.xml
