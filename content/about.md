@@ -10,4 +10,4 @@ disableShare: true
 
 
 
-[Download my Resume](../static/files/DiegoAlducin_resume_Apr2025.pdf)
+[Download my Resume](/files/DiegoAlducin_resume_Apr2025.pdf)
