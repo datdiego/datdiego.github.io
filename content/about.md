@@ -10,4 +10,7 @@ disableShare: true
 
 
 
+
 [Download my Resume](/files/DiegoAlducin_resume_Apr2025.pdf)
+
+I have many passions besides science and 
