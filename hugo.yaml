@@ -12,7 +12,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "datdiego"]
+mainsections: ["posts", "quant", "QuantumFinance", "datdiego"]
 
 minify:
   disableXML: true
