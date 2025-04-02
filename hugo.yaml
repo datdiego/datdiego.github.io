@@ -76,3 +76,11 @@ params:
     - name: KoFi
       title: Buy me a Ko-Fi :)
       url: "https://ko-fi.com/"
+
+assets:
+    disableHLJS: true
+        favicon: "../images/favicon.ico"
+        favicon16x16: "../images/favicon-16x16.png"
+        favicon32x32: "../images/favicon-32x32.png"
+        apple_touch_icon: "../images/apple-touch-icon.png"
+  #     safari_pinned_tab: "<link / abs url>"
