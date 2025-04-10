@@ -8,6 +8,8 @@ title = "diego"
 # Change the default theme to be use when building the site with Hugo
 theme = "DoIt"
 
+publishDir = "docs"
+
 [params]
   # DoIt theme version
   version = "0.2.X"
@@ -76,3 +78,4 @@ theme = "DoIt"
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+
