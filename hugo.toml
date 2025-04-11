@@ -24,9 +24,9 @@ publishDir = "docs"
     # profile image
     avatarURL = "/images/atoms_stars_data.jpg"
 
-    title = "Data Science, Machine Learning, and AI"
+    title = "Data Science, Physics, and Whatever This Is"
 
-    subtitle = "I am a data scientist and machine learning engineer with a passion for data-driven decision making and a love for teaching others."
+    subtitle = "Still figuring out if this is science or just really fancy guessing."
     # whether to use typeit animation for subtitle
     typeit = true
 
@@ -71,6 +71,31 @@ publishDir = "docs"
     url = "/categories/"
     title = ""
     weight = 3
+  [[menu.main]]
+    identifier = "series"
+    pre = ""
+    post = ""
+    name = "Series"
+    url = "/series/"
+    title = ""
+    weight = 4
+  [[menu.main]]
+    identifier = "archives"
+    pre = ""
+    post = ""
+    name = "Archives"
+    url = "/archives/"
+    title = ""
+    weight = 5
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+    weight = 6
+  
 
 # Markup related configuration in Hugo
 [markup]
