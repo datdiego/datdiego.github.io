@@ -7,7 +7,6 @@ description = "This is a basic overview of k-Means clustering"
 
 tags= ["Data Science", "Clustering"]
 categories= ["Data Science"]
-series= ["Data Science"]
 +++
 
 # k-Means clustering

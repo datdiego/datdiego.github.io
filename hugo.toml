@@ -14,6 +14,11 @@ publishDir = "docs"
   # DoIt theme version
   version = "0.2.X"
 
+[params.author]
+  name = "diego"
+  link = "/about/"
+  avatar = "/images/atoms_stars_data.jpg"
+
 [params.footer]
     hugo = false
 
@@ -23,6 +28,7 @@ publishDir = "docs"
     enable = true
     # profile image
     avatarURL = "/images/atoms_stars_data.jpg"
+    avatarLinkURL = "/about/"
 
     title = "Data Science, Physics, and Whatever This Is"
 
@@ -71,22 +77,22 @@ publishDir = "docs"
     url = "/categories/"
     title = ""
     weight = 3
-  [[menu.main]]
-    identifier = "series"
-    pre = ""
-    post = ""
-    name = "Series"
-    url = "/series/"
-    title = ""
-    weight = 4
-  [[menu.main]]
-    identifier = "archives"
-    pre = ""
-    post = ""
-    name = "Archives"
-    url = "/archives/"
-    title = ""
-    weight = 5
+  #[[menu.main]]
+  #  identifier = "series"
+  #  pre = ""
+  #  post = ""
+  #  name = "Series"
+  #  url = "/series/"
+  #  title = ""
+  #  weight = 4
+  #[[menu.main]]
+  #  identifier = "authors"
+  #  pre = ""
+  #  post = ""
+  #  name = "Authors"
+  #  url = "/authors/"
+  #  title = ""
+  #  weight = 5
   [[menu.main]]
     identifier = "about"
     pre = ""
@@ -94,7 +100,7 @@ publishDir = "docs"
     name = "About"
     url = "/about/"
     title = ""
-    weight = 6
+    weight = 4
   
 
 # Markup related configuration in Hugo
