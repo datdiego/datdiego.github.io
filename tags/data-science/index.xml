@@ -1,1 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Science on diego</title><link>http://datdiego.github.io/tags/data-science/</link><description>Recent content in Data Science on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 11 Apr 2025 16:04:44 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml"/><item><title>K-Means Clustering</title><link>http://datdiego.github.io/posts/k-means/</link><pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><guid>http://datdiego.github.io/posts/k-means/</guid><description>&lt;h1 id="k-means-clustering">k-Means clustering&lt;/h1></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Science on diego</title><link>http://datdiego.github.io/tags/data-science/</link><description>Recent content in Data Science on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 11 Apr 2025 16:04:44 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml"/><item><title>K-Means Clustering</title><link>http://datdiego.github.io/posts/k-means/</link><pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><guid>http://datdiego.github.io/posts/k-means/</guid><description>&lt;h1 id="k-means-clustering">k-Means clustering&lt;/h1>
+&lt;ul>
+&lt;li>
+&lt;p>When trying to &lt;a href="../posts/cluster">cluster&lt;/a> data together, K-means is an unsupervised learning algorithm which groups unlabeled data points into clusters.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It is one the most popular methods in machine learning.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It is a centroid-based or distance based algorithm, where it calculates the distances to the mean point around a set of data.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="objectives">Objectives&lt;/h2>
+&lt;p>Its main objective it to &lt;em>group similar data points&lt;/em> that allows us to discover insights within the data.&lt;/p></description></item></channel></rss>
