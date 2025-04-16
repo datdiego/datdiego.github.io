@@ -49,6 +49,7 @@ publishDir = "docs"
   Linkedin = "alducin-diego"
   Github = "datdiego"
   Kaggle = "ddelta"
+  HuggingFace = "datdiego"
 
 [menu]
   [[menu.main]]
