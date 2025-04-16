@@ -14,6 +14,7 @@ publishDir = "docs"
   # DoIt theme version
   version = "0.2.X"
 
+
 [params.author]
   name = "diego"
   link = "/about/"
