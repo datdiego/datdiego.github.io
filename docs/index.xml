@@ -3,9 +3,18 @@
         <title>diego</title>
         <link>http://localhost:1313/</link>
         <description>diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 11 Apr 2025 16:04:44 -0500</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 15:16:08 -0500</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>LLM comparison</title>
+    <link>http://localhost:1313/posts/llms_comparison/</link>
+    <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
+                        <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/llms_comparison/</guid>
+    <description><![CDATA[<h1 id="llms" class="headerLink">
+    <a href="#llms" class="header-mark"></a>LLMS</h1><p>Standard llm pipeline from hugging face.</p>
+<p>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</p>
+<p>meta-llama/Llama-3.2-1B</p>]]></description>
+</item><item>
     <title>K-Means Clustering</title>
     <link>http://localhost:1313/posts/k-means/</link>
     <pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><author>
