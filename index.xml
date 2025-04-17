@@ -59,6 +59,26 @@
  &lt;td>December 2023&lt;/td>
  &lt;/tr>
  &lt;/tbody>
+&lt;/table>
+&lt;h2 id="others">Others&lt;/h2>
+&lt;h3 id="sshleiferdistilbart-cnn-12-6">&lt;a href="https://huggingface.co/sshleifer/distilbart-cnn-12-6">sshleifer/distilbart-cnn-12-6&lt;/a>&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Variable&lt;/th>
+ &lt;th>Value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Params&lt;/td>
+ &lt;td>306 MM&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Inference time&lt;/td>
+ &lt;td>307 ms&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table></description></item><item><title>K-Means Clustering</title><link>http://datdiego.github.io/posts/k-means/</link><pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><guid>http://datdiego.github.io/posts/k-means/</guid><description>&lt;h1 id="k-means-clustering">k-Means clustering&lt;/h1>
 &lt;ul>
 &lt;li>
