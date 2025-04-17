@@ -9,13 +9,34 @@ tags= ["LLM", "Deep Learning", "AI"]
 categories= ["AI"]
 +++
 
-# LLMS
+# LLM Comparison
 
 Standard llm pipeline from hugging face.
 
 
 
+## deepseek
 
-deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
+### [deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)
 
-meta-llama/Llama-3.2-1B
+| Variable              | Value             |
+| ----------------------|-------------------|
+| Params                | 671 B             |
+| Context Length        | 128k              |  
+| Token count           | 32,768            |
+
+
+
+
+## meta-llama
+
+### [meta-llama/Llama-3.2-1B](https://huggingface.co/meta-llama/Llama-3.2-1B)
+
+| Variable              | Value             |
+| ----------------------|-------------------|
+| Params                | 1.23 Billion      |
+| Context Length        | 128k              |  
+| Token count           | 9T                |
+| GQA                   | Yes               |
+| Shared Embeddings     | Yes               |
+| Knowledge Cutoff      | December 2023     |
