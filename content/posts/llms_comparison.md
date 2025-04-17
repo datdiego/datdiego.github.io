@@ -40,3 +40,13 @@ Standard llm pipeline from hugging face.
 | GQA                   | Yes               |
 | Shared Embeddings     | Yes               |
 | Knowledge Cutoff      | December 2023     |
+
+
+## Others
+
+### [sshleifer/distilbart-cnn-12-6](https://huggingface.co/sshleifer/distilbart-cnn-12-6)
+
+| Variable              | Value             |
+| ----------------------|-------------------|
+| Params                | 306 MM            |
+| Inference time        | 307 ms            |
