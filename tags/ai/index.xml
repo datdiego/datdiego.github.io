@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on diego</title><link>http://datdiego.github.io/tags/ai/</link><description>Recent content in AI on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 15:16:08 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM comparison</title><link>http://datdiego.github.io/posts/llms_comparison/</link><pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><guid>http://datdiego.github.io/posts/llms_comparison/</guid><description>&lt;h1 id="llms">LLMS&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on diego</title><link>http://datdiego.github.io/tags/ai/</link><description>Recent content in AI on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 15:16:08 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM comparison</title><link>http://datdiego.github.io/posts/llms_comparison/</link><pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><guid>http://datdiego.github.io/posts/llms_comparison/</guid><description>&lt;h1 id="llm-comparison">LLM Comparison&lt;/h1>
 &lt;p>Standard llm pipeline from hugging face.&lt;/p>
-&lt;p>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B&lt;/p>
-&lt;p>meta-llama/Llama-3.2-1B&lt;/p></description></item></channel></rss>
+&lt;h2 id="deepseek">deepseek&lt;/h2>
+&lt;h3 id="deepseek-aideepseek-r1-distill-qwen-15b">&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B">deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B&lt;/a>&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Variable&lt;/th>
+ &lt;th>Value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Params&lt;/td>
+ &lt;td>671 B&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Context Length&lt;/td>
+ &lt;td>128k&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Token count&lt;/td>
+ &lt;td>32,768&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="meta-llama">meta-llama&lt;/h2>
+&lt;h3 id="meta-llamallama-32-1b">&lt;a href="https://huggingface.co/meta-llama/Llama-3.2-1B">meta-llama/Llama-3.2-1B&lt;/a>&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Variable&lt;/th>
+ &lt;th>Value&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Params&lt;/td>
+ &lt;td>1.23 Billion&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Context Length&lt;/td>
+ &lt;td>128k&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Token count&lt;/td>
+ &lt;td>9T&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>GQA&lt;/td>
+ &lt;td>Yes&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Shared Embeddings&lt;/td>
+ &lt;td>Yes&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Knowledge Cutoff&lt;/td>
+ &lt;td>December 2023&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>
