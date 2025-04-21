@@ -10,10 +10,97 @@
     <link>http://localhost:1313/posts/llms_comparison/</link>
     <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
                         <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/llms_comparison/</guid>
-    <description><![CDATA[<h1 id="llms" class="headerLink">
-    <a href="#llms" class="header-mark"></a>LLMS</h1><p>Standard llm pipeline from hugging face.</p>
-<p>deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</p>
-<p>meta-llama/Llama-3.2-1B</p>]]></description>
+    <description><![CDATA[<h1 id="llm-comparison" class="headerLink">
+    <a href="#llm-comparison" class="header-mark"></a>LLM Comparison</h1><p>Standard llm pipeline from hugging face.</p>
+<h2 id="deepseek" class="headerLink">
+    <a href="#deepseek" class="header-mark"></a>deepseek</h2><h3 id="deepseek-aideepseek-r1-distill-qwen-15b" class="headerLink">
+    <a href="#deepseek-aideepseek-r1-distill-qwen-15b" class="header-mark"></a><a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" target="_blank" rel="noopener noreferrer">deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a></h3>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th style="text-align: ">Variable</th>
+            <th style="text-align: ">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: ">Params</td>
+            <td style="text-align: ">671 B</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">Context Length</td>
+            <td style="text-align: ">128k</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">Token count</td>
+            <td style="text-align: ">32,768</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<h2 id="meta-llama" class="headerLink">
+    <a href="#meta-llama" class="header-mark"></a>meta-llama</h2><h3 id="meta-llamallama-32-1b" class="headerLink">
+    <a href="#meta-llamallama-32-1b" class="header-mark"></a><a href="https://huggingface.co/meta-llama/Llama-3.2-1B" target="_blank" rel="noopener noreferrer">meta-llama/Llama-3.2-1B</a></h3>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th style="text-align: ">Variable</th>
+            <th style="text-align: ">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: ">Params</td>
+            <td style="text-align: ">1.23 Billion</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">Context Length</td>
+            <td style="text-align: ">128k</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">Token count</td>
+            <td style="text-align: ">9T</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">GQA</td>
+            <td style="text-align: ">Yes</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">Shared Embeddings</td>
+            <td style="text-align: ">Yes</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">Knowledge Cutoff</td>
+            <td style="text-align: ">December 2023</td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+<h2 id="others" class="headerLink">
+    <a href="#others" class="header-mark"></a>Others</h2><h3 id="sshleiferdistilbart-cnn-12-6" class="headerLink">
+    <a href="#sshleiferdistilbart-cnn-12-6" class="header-mark"></a><a href="https://huggingface.co/sshleifer/distilbart-cnn-12-6" target="_blank" rel="noopener noreferrer">sshleifer/distilbart-cnn-12-6</a></h3>
+<div class="table-wrapper">
+  <table>
+    <thead>
+        <tr>
+            <th style="text-align: ">Variable</th>
+            <th style="text-align: ">Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align: ">Params</td>
+            <td style="text-align: ">306 MM</td>
+        </tr>
+        <tr>
+            <td style="text-align: ">Inference time</td>
+            <td style="text-align: ">307 ms</td>
+        </tr>
+    </tbody>
+  </table>
+</div>]]></description>
 </item><item>
     <title>K-Means Clustering</title>
     <link>http://localhost:1313/posts/k-means/</link>
