@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>diego</title><link>http://datdiego.github.io/</link><description>Recent content on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 15:16:08 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM comparison</title><link>http://datdiego.github.io/posts/llms_comparison/</link><pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><guid>http://datdiego.github.io/posts/llms_comparison/</guid><description>&lt;h1 id="llm-comparison">LLM Comparison&lt;/h1>
 &lt;p>Standard llm pipeline from hugging face.&lt;/p>
+&lt;h2 id="qwen">Qwen&lt;/h2>
+&lt;h3 id="qwenqwen2-15b-instruct">&lt;a href="https://huggingface.co/Qwen/Qwen2-1.5B-Instruct">Qwen/Qwen2-1.5B-Instruct&lt;/a>&lt;/h3>
 &lt;h2 id="deepseek">deepseek&lt;/h2>
 &lt;h3 id="deepseek-aideepseek-r1-distill-qwen-15b">&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B">deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B&lt;/a>&lt;/h3>
 &lt;table>
@@ -92,4 +94,7 @@
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="objectives">Objectives&lt;/h2>
-&lt;p>Its main objective it to &lt;em>group similar data points&lt;/em> that allows us to discover insights within the data.&lt;/p></description></item><item><title>About diego</title><link>http://datdiego.github.io/about/</link><pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate><guid>http://datdiego.github.io/about/</guid><description>&lt;p>&lt;a href="http://datdiego.github.io/pdfs/DiegoAlducin_ResumeApr2025.pdf">Resume&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>Its main objective it to &lt;em>group similar data points&lt;/em> that allows us to discover insights within the data.&lt;/p></description></item><item><title>About diego</title><link>http://datdiego.github.io/about/</link><pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate><guid>http://datdiego.github.io/about/</guid><description>&lt;h2 id="resume">&lt;a href="http://datdiego.github.io/pdfs/DiegoAlducin_ResumeMay2025.pdf">Resume&lt;/a>&lt;/h2>
+&lt;div style="height:800px; overflow:auto;">
+ &lt;iframe src="http://datdiego.github.io/pdfs/DiegoAlducin_ResumeMay2025.pdf" width="100%" height="100%" style="border:none;">&lt;/iframe>
+&lt;/div></description></item></channel></rss>

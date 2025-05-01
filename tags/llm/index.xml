@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM on diego</title><link>http://datdiego.github.io/tags/llm/</link><description>Recent content in LLM on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 15:16:08 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM comparison</title><link>http://datdiego.github.io/posts/llms_comparison/</link><pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><guid>http://datdiego.github.io/posts/llms_comparison/</guid><description>&lt;h1 id="llm-comparison">LLM Comparison&lt;/h1>
 &lt;p>Standard llm pipeline from hugging face.&lt;/p>
+&lt;h2 id="qwen">Qwen&lt;/h2>
+&lt;h3 id="qwenqwen2-15b-instruct">&lt;a href="https://huggingface.co/Qwen/Qwen2-1.5B-Instruct">Qwen/Qwen2-1.5B-Instruct&lt;/a>&lt;/h3>
 &lt;h2 id="deepseek">deepseek&lt;/h2>
 &lt;h3 id="deepseek-aideepseek-r1-distill-qwen-15b">&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B">deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B&lt;/a>&lt;/h3>
 &lt;table>
