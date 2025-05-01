@@ -13,6 +13,10 @@ categories= ["AI"]
 
 Standard llm pipeline from hugging face.
 
+## Qwen
+
+
+### [Qwen/Qwen2-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct)
 
 
 ## deepseek

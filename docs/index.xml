@@ -3,7 +3,7 @@
         <title>diego</title>
         <link>http://localhost:1313/</link>
         <description>diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 15:16:08 -0500</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 22 Apr 2025 10:12:44 -0500</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>LLM comparison</title>
@@ -12,7 +12,9 @@
                         <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/llms_comparison/</guid>
     <description><![CDATA[<h1 id="llm-comparison" class="headerLink">
     <a href="#llm-comparison" class="header-mark"></a>LLM Comparison</h1><p>Standard llm pipeline from hugging face.</p>
-<h2 id="deepseek" class="headerLink">
+<h2 id="qwen" class="headerLink">
+    <a href="#qwen" class="header-mark"></a>Qwen</h2><h3 id="qwenqwen2-15b-instruct" class="headerLink">
+    <a href="#qwenqwen2-15b-instruct" class="header-mark"></a><a href="https://huggingface.co/Qwen/Qwen2-1.5B-Instruct" target="_blank" rel="noopener noreferrer">Qwen/Qwen2-1.5B-Instruct</a></h3><h2 id="deepseek" class="headerLink">
     <a href="#deepseek" class="header-mark"></a>deepseek</h2><h3 id="deepseek-aideepseek-r1-distill-qwen-15b" class="headerLink">
     <a href="#deepseek-aideepseek-r1-distill-qwen-15b" class="header-mark"></a><a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" target="_blank" rel="noopener noreferrer">deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B</a></h3>
 <div class="table-wrapper">
