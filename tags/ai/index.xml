@@ -1,84 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI on diego</title><link>http://datdiego.github.io/tags/ai/</link><description>Recent content in AI on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 16 Apr 2025 15:16:08 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>LLM comparison</title><link>http://datdiego.github.io/posts/llms_comparison/</link><pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><guid>http://datdiego.github.io/posts/llms_comparison/</guid><description>&lt;h1 id="llm-comparison">LLM Comparison&lt;/h1>
-&lt;p>Standard llm pipeline from hugging face.&lt;/p>
-&lt;h2 id="qwen">Qwen&lt;/h2>
+&lt;p>Standard LLM pipeline from Hugging Face.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">transformers&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">AutoTokenizer&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">AutoModelForCausalLM&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">pipeline&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Replace this with the model you want&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">model_name&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;Qwen/Qwen2-1.5B-Instruct&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Load tokenizer and model&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">tokenizer&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">AutoTokenizer&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">from_pretrained&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">model_name&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">model&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">AutoModelForCausalLM&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">from_pretrained&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">model_name&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Set up the text generation pipeline&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">text_generator&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pipeline&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;text-generation&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">model&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">model&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">tokenizer&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">tokenizer&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Example input&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">prompt&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;Explain the importance of large language models.&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Generate output&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">output&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">text_generator&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">prompt&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">max_length&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">200&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">do_sample&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">top_k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">50&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">output&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">][&lt;/span>&lt;span class="s1">&amp;#39;generated_text&amp;#39;&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="qwen">Qwen&lt;/h2>
 &lt;h3 id="qwenqwen2-15b-instruct">&lt;a href="https://huggingface.co/Qwen/Qwen2-1.5B-Instruct">Qwen/Qwen2-1.5B-Instruct&lt;/a>&lt;/h3>
-&lt;h2 id="deepseek">deepseek&lt;/h2>
-&lt;h3 id="deepseek-aideepseek-r1-distill-qwen-15b">&lt;a href="https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B">deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B&lt;/a>&lt;/h3>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Variable&lt;/th>
- &lt;th>Value&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Params&lt;/td>
- &lt;td>671 B&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Context Length&lt;/td>
- &lt;td>128k&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Token count&lt;/td>
- &lt;td>32,768&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="meta-llama">meta-llama&lt;/h2>
-&lt;h3 id="meta-llamallama-32-1b">&lt;a href="https://huggingface.co/meta-llama/Llama-3.2-1B">meta-llama/Llama-3.2-1B&lt;/a>&lt;/h3>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Variable&lt;/th>
- &lt;th>Value&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Params&lt;/td>
- &lt;td>1.23 Billion&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Context Length&lt;/td>
- &lt;td>128k&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Token count&lt;/td>
- &lt;td>9T&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>GQA&lt;/td>
- &lt;td>Yes&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Shared Embeddings&lt;/td>
- &lt;td>Yes&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Knowledge Cutoff&lt;/td>
- &lt;td>December 2023&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="others">Others&lt;/h2>
-&lt;h3 id="sshleiferdistilbart-cnn-12-6">&lt;a href="https://huggingface.co/sshleifer/distilbart-cnn-12-6">sshleifer/distilbart-cnn-12-6&lt;/a>&lt;/h3>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>Variable&lt;/th>
- &lt;th>Value&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>Params&lt;/td>
- &lt;td>306 MM&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>Inference time&lt;/td>
- &lt;td>307 ms&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;p>This is a compact instruction-tuned model from the Qwen series. It’s designed for general instruction following, making it versatile for tasks like summarization, question answering, and conversation.&lt;br>
+Though small at 1.5B parameters, it delivers solid performance for lightweight applications.&lt;/p></description></item></channel></rss>
