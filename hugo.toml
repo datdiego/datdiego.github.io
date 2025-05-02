@@ -176,9 +176,13 @@ publishDir = "docs"
     [params.page.plantuml]
       server = "https://www.plantuml.com/plantuml"
 
-    # instant.page config
-    [params.page.instantpage]
-      enable = false
+  [params.analytics]
+    enable = false
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-TLSLXTLD6R"
+      # whether to anonymize IP
+      anonymizeIP = true
 
 
 [params.social]
@@ -268,3 +272,9 @@ publishDir = "docs"
     [markup.goldmark.renderer]
       # whether to use HTML tags directly in the document
       unsafe = true
+
+# Sitemap config
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
