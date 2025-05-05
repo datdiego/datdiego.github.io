@@ -3,7 +3,18 @@
         <title>Data Science - Tag - diego</title>
         <link>http://localhost:1313/tags/data-science/</link>
         <description>Data Science - Tag - diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 11 Apr 2025 16:04:44 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/data-science/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 02 May 2025 15:02:42 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/data-science/" rel="self" type="application/rss+xml" /><item>
+    <title>IntroNumpy</title>
+    <link>http://localhost:1313/posts/intronumpy/</link>
+    <pubDate>Fri, 02 May 2025 15:02:42 -0500</pubDate><author>
+                        <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/intronumpy/</guid>
+    <description><![CDATA[<h1 id="intro-to-numpy" class="headerLink">
+    <a href="#intro-to-numpy" class="header-mark"></a>Intro to Numpy</h1><p>There are many notebooks out there that cover some of these subjects, including Numpy&rsquo;s <a href="https://numpy.org/doc/stable/user/absolute_beginners.html#" target="_blank" rel="noopener noreferrer">quickstart</a>.</p>
+<p>I am using this notebook to gather the most important and maybe not so important parts of this library, which will depend on what you are using it for.</p>
+<h2 id="why-numpy" class="headerLink">
+    <a href="#why-numpy" class="header-mark"></a>Why numpy?</h2><p>Well numpy is used in many mathematical computations due to its blazing fast calculations speeds.</p>
+<p>The reason its so fast is due to the vectoriszation of matrices which calculations are done through pre-compiled C code.</p>]]></description>
+</item><item>
     <title>K-Means Clustering</title>
     <link>http://localhost:1313/posts/k-means/</link>
     <pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><author>
