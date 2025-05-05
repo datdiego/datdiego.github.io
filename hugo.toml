@@ -10,10 +10,11 @@ theme = "DoIt"
 
 publishDir = "docs"
 
+googleAnalytics = "G-TLSLXTLD6R"
+
 [params]
   # DoIt theme version
   version = "0.2.X"
-
 
 [params.author]
   name = "diego"
@@ -181,13 +182,7 @@ publishDir = "docs"
       enable = false
 
 
-  [params.analytics]
-    enable = true
-    # Google Analytics
-    [params.analytics.google]
-      id = "G-TLSLXTLD6R"
-      # whether to anonymize I
-      anonymizeIP = true
+
 
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
@@ -197,9 +192,7 @@ publishDir = "docs"
     # character used for the cursor (HTML format is supported)
     cursorChar = "|"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
-
-
-
+    
   [params.social]
     Linkedin = "alducin-diego"
     Github = "datdiego"
@@ -244,25 +237,6 @@ publishDir = "docs"
     url = "/categories/"
     title = ""
     weight = 4
-  #[[menu.main]]
-  #  identifier = "series"
-  #  pre = ""
-  #  post = ""
-  #  name = "Series"
-  #  url = "/series/"
-  #  title = ""
-  #  weight = 4
-  #[[menu.main]]
-  #  identifier = "authors"
-  #  pre = ""
-  #  post = ""
-  #  name = "Authors"
-  #  url = "/authors/"
-  #  title = ""
-  #  weight = 5
-  
-  
-
 
 [markup]
   # Syntax Highlighting
@@ -287,9 +261,3 @@ publishDir = "docs"
     [markup.goldmark.renderer]
       # whether to use HTML tags directly in the document
       unsafe = true
-
-# Sitemap config
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
