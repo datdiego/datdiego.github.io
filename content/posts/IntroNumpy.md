@@ -1,6 +1,6 @@
 +++
 date = '2025-05-02T15:02:42-05:00'
-draft = true
+draft = false
 title = 'IntroNumpy'
 authors = ["diego"]
 description = "An quick intro to numpy"
