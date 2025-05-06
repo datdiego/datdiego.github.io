@@ -8,7 +8,9 @@
     <link>http://localhost:1313/posts/llms_comparison/</link>
     <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
                         <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/llms_comparison/</guid>
-    <description><![CDATA[<h1 id="llm-comparison" class="headerLink">
+    <description><![CDATA[<div class="featured-image">
+                <img src="images/posts/llm_comparison.png" referrerpolicy="no-referrer">
+            </div><h1 id="llm-comparison" class="headerLink">
     <a href="#llm-comparison" class="header-mark"></a>LLM Comparison</h1><p>Standard LLM pipeline from Hugging Face.</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="

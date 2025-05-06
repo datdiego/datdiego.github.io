@@ -4,7 +4,7 @@ draft = false
 title = 'IntroNumpy'
 authors = ["diego"]
 description = "An quick intro to numpy"
-
+featuredImage = "/images/posts/intro_numpy.webp"
 tags= ["Data Science", "numpy"]
 categories= ["Review"]
 +++

@@ -10,7 +10,9 @@
     <link>http://localhost:1313/posts/intronumpy/</link>
     <pubDate>Fri, 02 May 2025 15:02:42 -0500</pubDate><author>
                         <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/intronumpy/</guid>
-    <description><![CDATA[<h1 id="intro-to-numpy" class="headerLink">
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/posts/intro_numpy.webp" referrerpolicy="no-referrer">
+            </div><h1 id="intro-to-numpy" class="headerLink">
     <a href="#intro-to-numpy" class="header-mark"></a>Intro to Numpy</h1><p>There are many notebooks out there that cover some of these subjects, including Numpy&rsquo;s <a href="https://numpy.org/doc/stable/user/absolute_beginners.html#" target="_blank" rel="noopener noreferrer">quickstart</a>.</p>
 <p>I am using this notebook to gather the most important and maybe not so important parts of this library, which will depend on what you are using it for.</p>
 <h2 id="why-numpy" class="headerLink">
@@ -21,7 +23,9 @@
     <link>http://localhost:1313/posts/llms_comparison/</link>
     <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
                         <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/llms_comparison/</guid>
-    <description><![CDATA[<h1 id="llm-comparison" class="headerLink">
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/posts/llm_comparison.webp" referrerpolicy="no-referrer">
+            </div><h1 id="llm-comparison" class="headerLink">
     <a href="#llm-comparison" class="header-mark"></a>LLM Comparison</h1><p>Standard LLM pipeline from Hugging Face.</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -48,7 +52,9 @@
     <link>http://localhost:1313/posts/k-means/</link>
     <pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><author>
                         <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/k-means/</guid>
-    <description><![CDATA[<h1 id="k-means-clustering" class="headerLink">
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/posts/k-means.webp" referrerpolicy="no-referrer">
+            </div><h1 id="k-means-clustering" class="headerLink">
     <a href="#k-means-clustering" class="header-mark"></a>k-Means clustering</h1><ul>
 <li>
 <p>When trying to <a href="../posts/cluster" rel="">cluster</a> data together, K-means is an unsupervised learning algorithm which groups unlabeled data points into clusters.</p>

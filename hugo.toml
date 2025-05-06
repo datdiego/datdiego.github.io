@@ -25,6 +25,13 @@ publishDir = "docs"
 [params.footer]
     hugo = false
 
+[params.image]
+  # cache remote images for better optimisations
+  cacheRemote = true
+  # Image resizing and optimisation
+  optimise = true
+
+
 [params.home]
   rss = 10
   [params.home.profile]

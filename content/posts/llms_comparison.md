@@ -4,7 +4,7 @@ draft = false
 title = 'LLM comparison' 
 authors = ["diego"]
 description = "These are a few llms I have been testing for a personal project"
-
+featuredImage = "/images/posts/llm_comparison.webp"
 tags= ["LLM", "Deep Learning", "AI"]
 categories= ["AI"]
 +++
