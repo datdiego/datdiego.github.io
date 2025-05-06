@@ -9,5 +9,5 @@ draft: false
 ## [Resume](/pdfs/DiegoAlducin_ResumeMay2025.pdf)
 
 <div style="height:800px; overflow:auto;">
-    <iframe src="/pdfs/DiegoAlducin_ResumeMay2025.pdf" width="100%" height="100%" style="border:none;"></iframe>
+    <iframe title="Data Scientist" src="/pdfs/DiegoAlducin_ResumeMay2025.pdf" width="100%" height="100%" style="border:none;"></iframe>
 </div>

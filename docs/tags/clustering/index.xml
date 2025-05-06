@@ -9,7 +9,7 @@
     <pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><author>
                         <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/k-means/</guid>
     <description><![CDATA[<div class="featured-image">
-                <img src="images/posts/k-means.png" referrerpolicy="no-referrer">
+                <img src="/images/posts/k-means.webp" referrerpolicy="no-referrer">
             </div><h1 id="k-means-clustering" class="headerLink">
     <a href="#k-means-clustering" class="header-mark"></a>k-Means clustering</h1><ul>
 <li>
