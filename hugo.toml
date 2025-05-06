@@ -10,11 +10,12 @@ theme = "DoIt"
 
 publishDir = "docs"
 
-googleAnalytics = "G-TLSLXTLD6R"
+
 
 [params]
   # DoIt theme version
   version = "0.2.X"
+  googleAnalytics = "G-TLSLXTLD6R"
 
 [params.author]
   name = "diego"
