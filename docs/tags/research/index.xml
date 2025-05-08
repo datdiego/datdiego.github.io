@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Research - Tag - diego</title>
+        <link>http://localhost:1313/tags/research/</link>
+        <description>Research - Tag - diego</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 07 May 2025 14:15:41 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/research/" rel="self" type="application/rss+xml" /><item>
+    <title>Quantopian&#39;s Paper Reviews 05/5-9</title>
+    <link>http://localhost:1313/posts/quant/quantopia_review_05_5-9/</link>
+    <pubDate>Wed, 07 May 2025 14:15:41 -0500</pubDate><author>
+                        <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/quant/quantopia_review_05_5-9/</guid>
+    <description><![CDATA[<p>This is a weekly review of Quant Radio&rsquo;s research paper review for the week of May 5-9. &lsquo;Quant Radio&rsquo; is a podcast from Quantopian where they review interesting papers on algorithmic trading. None of this is written by ChatGPT, so I apologize if there are any mistakes/errors.</p>
+<p>I will just go over the papers that I deem interesting and maybe do some testing proposed on the papers.</p>
+<h1 id="artificial-intelligence-in-finance" class="headerLink">
+    <a href="#artificial-intelligence-in-finance" class="header-mark"></a><a href="https://www.turing.ac.uk/sites/default/files/2019-04/artificial_intelligence_in_finance_-_turing_report_0.pdf" target="_blank" rel="noopener noreferrer">Artificial Intelligence in Finance</a></h1><p>This is a report from the Turing Institute on how that review literature on how artificial intelligence, machine learning and deep learning applied in the financial service industry.</p>]]></description>
+</item></channel>
+</rss>
