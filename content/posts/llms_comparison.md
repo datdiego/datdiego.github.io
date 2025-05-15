@@ -1,6 +1,6 @@
 +++
 date = '2025-04-16T15:16:08-05:00'
-draft = false
+draft = true
 title = 'LLM comparison' 
 authors = ["diego"]
 description = "These are a few llms I have been testing for a personal project"

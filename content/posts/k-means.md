@@ -1,6 +1,6 @@
 +++
 date = '2025-04-11T16:04:44-05:00'
-draft = false
+draft = true
 title = 'K-Means Clustering' 
 authors = ["diego"]
 description = "This is a basic overview of k-Means clustering"
