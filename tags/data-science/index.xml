@@ -1,19 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Science on diego</title><link>http://datdiego.github.io/tags/data-science/</link><description>Recent content in Data Science on diego</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 02 May 2025 15:02:42 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml"/><item><title>IntroNumpy</title><link>http://datdiego.github.io/posts/intronumpy/</link><pubDate>Fri, 02 May 2025 15:02:42 -0500</pubDate><guid>http://datdiego.github.io/posts/intronumpy/</guid><description>&lt;h1 id="intro-to-numpy">Intro to Numpy&lt;/h1>
-&lt;p>There are many notebooks out there that cover some of these subjects, including Numpy&amp;rsquo;s &lt;a href="https://numpy.org/doc/stable/user/absolute_beginners.html#">quickstart&lt;/a>.&lt;/p>
-&lt;p>I am using this notebook to gather the most important and maybe not so important parts of this library, which will depend on what you are using it for.&lt;/p>
-&lt;h2 id="why-numpy">Why numpy?&lt;/h2>
-&lt;p>Well numpy is used in many mathematical computations due to its blazing fast calculations speeds.&lt;/p>
-&lt;p>The reason its so fast is due to the vectoriszation of matrices which calculations are done through pre-compiled C code.&lt;/p></description></item><item><title>K-Means Clustering</title><link>http://datdiego.github.io/posts/k-means/</link><pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><guid>http://datdiego.github.io/posts/k-means/</guid><description>&lt;h1 id="k-means-clustering">k-Means clustering&lt;/h1>
-&lt;ul>
-&lt;li>
-&lt;p>When trying to &lt;a href="../posts/cluster">cluster&lt;/a> data together, K-means is an unsupervised learning algorithm which groups unlabeled data points into clusters.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>It is one the most popular methods in machine learning.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>It is a centroid-based or distance based algorithm, where it calculates the distances to the mean point around a set of data.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="objectives">Objectives&lt;/h2>
-&lt;p>Its main objective it to &lt;em>group similar data points&lt;/em> that allows us to discover insights within the data.&lt;/p></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Data Science - Tag - diego</title>
+        <link>http://localhost:1313/tags/data-science/</link>
+        <description>Data Science - Tag - diego</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 02 May 2025 15:02:42 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/data-science/" rel="self" type="application/rss+xml" /><item>
+    <title>IntroNumpy</title>
+    <link>http://localhost:1313/posts/intronumpy/</link>
+    <pubDate>Fri, 02 May 2025 15:02:42 -0500</pubDate><author>
+                        <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/intronumpy/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/posts/intro_numpy.webp" referrerpolicy="no-referrer">
+            </div><h1 id="intro-to-numpy" class="headerLink">
+    <a href="#intro-to-numpy" class="header-mark"></a>Intro to Numpy</h1><p>There are many notebooks out there that cover some of these subjects, including Numpy&rsquo;s <a href="https://numpy.org/doc/stable/user/absolute_beginners.html#" target="_blank" rel="noopener noreferrer">quickstart</a>.</p>
+<p>I am using this notebook to gather the most important and maybe not so important parts of this library, which will depend on what you are using it for.</p>
+<h2 id="why-numpy" class="headerLink">
+    <a href="#why-numpy" class="header-mark"></a>Why numpy?</h2><p>Well numpy is used in many mathematical computations due to its blazing fast calculations speeds.</p>
+<p>The reason its so fast is due to the vectoriszation of matrices which calculations are done through pre-compiled C code.</p>]]></description>
+</item><item>
+    <title>K-Means Clustering</title>
+    <link>http://localhost:1313/posts/k-means/</link>
+    <pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><author>
+                        <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/k-means/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/posts/k-means.webp" referrerpolicy="no-referrer">
+            </div><h1 id="k-means-clustering" class="headerLink">
+    <a href="#k-means-clustering" class="header-mark"></a>k-Means clustering</h1><ul>
+<li>
+<p>When trying to <a href="../posts/cluster" rel="">cluster</a> data together, K-means is an unsupervised learning algorithm which groups unlabeled data points into clusters.</p>
+</li>
+<li>
+<p>It is one the most popular methods in machine learning.</p>
+</li>
+<li>
+<p>It is a centroid-based or distance based algorithm, where it calculates the distances to the mean point around a set of data.</p>
+</li>
+</ul>
+<h2 id="objectives" class="headerLink">
+    <a href="#objectives" class="header-mark"></a>Objectives</h2><p>Its main objective it to <em>group similar data points</em> that allows us to discover insights within the data.</p>]]></description>
+</item></channel>
+</rss>
