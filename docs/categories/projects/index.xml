@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - diego</title>
-        <link>http://localhost:1313/posts/</link>
-        <description>All Posts | diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 10:14:43 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>Projects - Category - diego</title>
+        <link>http://localhost:1313/categories/projects/</link>
+        <description>Projects - Category - diego</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 10:14:43 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/projects/" rel="self" type="application/rss+xml" /><item>
     <title>Astroscale/SwRI Refueler</title>
     <link>http://localhost:1313/posts/apsr_lexi/</link>
     <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>

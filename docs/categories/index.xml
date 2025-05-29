@@ -3,33 +3,12 @@
         <title>Categories - Category - diego</title>
         <link>http://localhost:1313/categories/</link>
         <description>Categories - Category - diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 07 May 2025 14:15:41 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>Quantopian</title>
-    <link>http://localhost:1313/categories/quantopian/</link>
-    <pubDate>Wed, 07 May 2025 14:15:41 -0500</pubDate><author>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 10:14:43 -0500</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Projects</title>
+    <link>http://localhost:1313/categories/projects/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
         <name>diego</name>
-    </author><guid>http://localhost:1313/categories/quantopian/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Review</title>
-    <link>http://localhost:1313/categories/review/</link>
-    <pubDate>Fri, 02 May 2025 15:02:42 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/categories/review/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>AI</title>
-    <link>http://localhost:1313/categories/ai/</link>
-    <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/categories/ai/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Data Science</title>
-    <link>http://localhost:1313/categories/data-science/</link>
-    <pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/categories/data-science/</guid>
+    </author><guid>http://localhost:1313/categories/projects/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

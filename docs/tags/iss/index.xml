@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ISS - Tag - diego</title>
+        <link>http://localhost:1313/tags/iss/</link>
+        <description>ISS - Tag - diego</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 10:09:52 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/iss/" rel="self" type="application/rss+xml" /><item>
+    <title>Micropatching in the ISS</title>
+    <link>http://localhost:1313/posts/axiom_micropatch/</link>
+    <pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author>
+                        <name>diego</name><uri>http://localhost:1313/about/</uri></author><guid>http://localhost:1313/posts/axiom_micropatch/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/posts/data_integrity.webp" referrerpolicy="no-referrer">
+            </div><h1 id="micropatching-at-the-international-space-station-tests" class="headerLink">
+    <a href="#micropatching-at-the-international-space-station-tests" class="header-mark"></a>Micropatching at the International Space Station tests</h1><p><a href="https://www.swri.org/newsroom/press-releases/swri-micropatch-algorithm-improves-ground-spacecraft-software-update-efficiency" target="_blank" rel="noopener noreferrer">news release</a></p>]]></description>
+</item></channel>
+</rss>

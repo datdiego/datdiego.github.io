@@ -3,68 +3,33 @@
         <title>Tags - Tag - diego</title>
         <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 07 May 2025 14:15:41 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Quant</title>
-    <link>http://localhost:1313/tags/quant/</link>
-    <pubDate>Wed, 07 May 2025 14:15:41 -0500</pubDate><author>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 10:14:43 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>ASI</title>
+    <link>http://localhost:1313/tags/asi/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
         <name>diego</name>
-    </author><guid>http://localhost:1313/tags/quant/</guid>
+    </author><guid>http://localhost:1313/tags/asi/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Research</title>
-    <link>http://localhost:1313/tags/research/</link>
-    <pubDate>Wed, 07 May 2025 14:15:41 -0500</pubDate><author>
+    <title>Space Systems</title>
+    <link>http://localhost:1313/tags/space-systems/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
         <name>diego</name>
-    </author><guid>http://localhost:1313/tags/research/</guid>
+    </author><guid>http://localhost:1313/tags/space-systems/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Review</title>
-    <link>http://localhost:1313/tags/review/</link>
-    <pubDate>Wed, 07 May 2025 14:15:41 -0500</pubDate><author>
+    <title>SwRI</title>
+    <link>http://localhost:1313/tags/swri/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
         <name>diego</name>
-    </author><guid>http://localhost:1313/tags/review/</guid>
+    </author><guid>http://localhost:1313/tags/swri/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Data Science</title>
-    <link>http://localhost:1313/tags/data-science/</link>
-    <pubDate>Fri, 02 May 2025 15:02:42 -0500</pubDate><author>
+    <title>ISS</title>
+    <link>http://localhost:1313/tags/iss/</link>
+    <pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author>
         <name>diego</name>
-    </author><guid>http://localhost:1313/tags/data-science/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Numpy</title>
-    <link>http://localhost:1313/tags/numpy/</link>
-    <pubDate>Fri, 02 May 2025 15:02:42 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/tags/numpy/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>AI</title>
-    <link>http://localhost:1313/tags/ai/</link>
-    <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/tags/ai/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Deep Learning</title>
-    <link>http://localhost:1313/tags/deep-learning/</link>
-    <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/tags/deep-learning/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>LLM</title>
-    <link>http://localhost:1313/tags/llm/</link>
-    <pubDate>Wed, 16 Apr 2025 15:16:08 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/tags/llm/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Clustering</title>
-    <link>http://localhost:1313/tags/clustering/</link>
-    <pubDate>Fri, 11 Apr 2025 16:04:44 -0500</pubDate><author>
-        <name>diego</name>
-    </author><guid>http://localhost:1313/tags/clustering/</guid>
+    </author><guid>http://localhost:1313/tags/iss/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
