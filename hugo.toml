@@ -206,6 +206,7 @@ publishDir = "docs"
     Github = "datdiego"
     Kaggle = "ddelta"
     HuggingFace = "datdiego"
+    Googlescholar = "https://scholar.google.com/citations?user=Rli2mWsAAAAJ&hl=en"
 
 [menu]
   [[menu.main]]
