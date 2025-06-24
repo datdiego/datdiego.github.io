@@ -1,1 +1,56 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Tags - Tag - diego</title><link>http://datdiego.github.io/tags/</link><description>Tags - Tag - diego</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 24 Jun 2025 10:25:26 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/" rel="self" type="application/rss+xml"/><item><title>Cli</title><link>http://datdiego.github.io/tags/cli/</link><pubDate>Tue, 24 Jun 2025 10:25:26 -0500</pubDate><author><name>diego</name></author><guid>http://datdiego.github.io/tags/cli/</guid><description></description></item><item><title>Cmd</title><link>http://datdiego.github.io/tags/cmd/</link><pubDate>Tue, 24 Jun 2025 10:25:26 -0500</pubDate><author><name>diego</name></author><guid>http://datdiego.github.io/tags/cmd/</guid><description></description></item><item><title>ASI</title><link>http://datdiego.github.io/tags/asi/</link><pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author><name>diego</name></author><guid>http://datdiego.github.io/tags/asi/</guid><description></description></item><item><title>News Release</title><link>http://datdiego.github.io/tags/news-release/</link><pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author><name>diego</name></author><guid>http://datdiego.github.io/tags/news-release/</guid><description></description></item><item><title>Space Systems</title><link>http://datdiego.github.io/tags/space-systems/</link><pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author><name>diego</name></author><guid>http://datdiego.github.io/tags/space-systems/</guid><description></description></item><item><title>SwRI</title><link>http://datdiego.github.io/tags/swri/</link><pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author><name>diego</name></author><guid>http://datdiego.github.io/tags/swri/</guid><description></description></item><item><title>ISS</title><link>http://datdiego.github.io/tags/iss/</link><pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author><name>diego</name></author><guid>http://datdiego.github.io/tags/iss/</guid><description></description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - diego</title>
+        <link>http://datdiego.github.io/tags/</link>
+        <description>Tags - Tag - diego</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 24 Jun 2025 10:25:26 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Cli</title>
+    <link>http://datdiego.github.io/tags/cli/</link>
+    <pubDate>Tue, 24 Jun 2025 10:25:26 -0500</pubDate><author>
+        <name>diego</name>
+    </author><guid>http://datdiego.github.io/tags/cli/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Cmd</title>
+    <link>http://datdiego.github.io/tags/cmd/</link>
+    <pubDate>Tue, 24 Jun 2025 10:25:26 -0500</pubDate><author>
+        <name>diego</name>
+    </author><guid>http://datdiego.github.io/tags/cmd/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>ASI</title>
+    <link>http://datdiego.github.io/tags/asi/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
+        <name>diego</name>
+    </author><guid>http://datdiego.github.io/tags/asi/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>News Release</title>
+    <link>http://datdiego.github.io/tags/news-release/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
+        <name>diego</name>
+    </author><guid>http://datdiego.github.io/tags/news-release/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Space Systems</title>
+    <link>http://datdiego.github.io/tags/space-systems/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
+        <name>diego</name>
+    </author><guid>http://datdiego.github.io/tags/space-systems/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>SwRI</title>
+    <link>http://datdiego.github.io/tags/swri/</link>
+    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
+        <name>diego</name>
+    </author><guid>http://datdiego.github.io/tags/swri/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>ISS</title>
+    <link>http://datdiego.github.io/tags/iss/</link>
+    <pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author>
+        <name>diego</name>
+    </author><guid>http://datdiego.github.io/tags/iss/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
