@@ -1,6 +1,6 @@
 +++
 date = '2025-06-24T10:25:26-05:00'
-draft = true
+draft = false
 title = 'print directory structure'
 authors = ["diego"]
 description = "cmd to print directory structure"

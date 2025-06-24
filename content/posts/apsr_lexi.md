@@ -5,7 +5,7 @@ title = 'Astroscale/SwRI Refueler'
 authors = ["diego"]
 description = "Astroscale/SwRI Refuleler"
 featuredImage = "/images/posts/asi_apsr.webp"
-tags= ["SwRI", "ASI", "space systems"]
+tags= ["SwRI", "ASI", "space systems", "news release"]
 categories= ["Projects"]
 +++
 
