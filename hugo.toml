@@ -52,6 +52,9 @@ publishDir = "docs"
     enable = true
     # special amount of posts in each home posts page
     paginate = 6
+    hideDate = true
+    hideCategories = true
+    hideSeries = true
      
 
 [params.page]
