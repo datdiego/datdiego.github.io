@@ -5,7 +5,7 @@ title = 'Micropatching in the ISS'
 authors = ["diego"]
 description = "Micropatching on the ISS"
 featuredImage = "/images/posts/data_integrity.webp"
-tags= ["SwRI", "ISS", "space systems"]
+tags= ["SwRI", "ISS", "space systems", "news release"]
 categories= ["Projects"]
 +++
 
