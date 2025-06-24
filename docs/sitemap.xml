@@ -1,16 +1,1 @@
-<urlset
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    ><url>
-            <loc>http://localhost:1313/tags/asi/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/apsr_lexi/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/categories/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/categories/projects/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/space-systems/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/swri/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/iss/</loc><lastmod>2025-05-29T10:09:52-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/axiom_micropatch/</loc><lastmod>2025-05-29T10:09:52-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/about/</loc><lastmod>2025-04-11T00:00:00&#43;00:00</lastmod></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>http://datdiego.github.io/</loc><lastmod>2025-06-24T10:35:48-05:00</lastmod></url><url><loc>http://datdiego.github.io/posts/</loc><lastmod>2025-06-24T10:35:48-05:00</lastmod></url><url><loc>http://datdiego.github.io/categories/</loc><lastmod>2025-06-24T10:25:26-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/cli/</loc><lastmod>2025-06-24T10:25:26-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/cmd/</loc><lastmod>2025-06-24T10:25:26-05:00</lastmod></url><url><loc>http://datdiego.github.io/posts/cmds/tree_level/</loc><lastmod>2025-06-24T10:25:26-05:00</lastmod></url><url><loc>http://datdiego.github.io/categories/programming/</loc><lastmod>2025-06-24T10:25:26-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/</loc><lastmod>2025-06-24T10:25:26-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/asi/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url><loc>http://datdiego.github.io/posts/apsr_lexi/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/news-release/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url><loc>http://datdiego.github.io/categories/projects/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/space-systems/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/swri/</loc><lastmod>2025-05-29T10:14:43-05:00</lastmod></url><url><loc>http://datdiego.github.io/tags/iss/</loc><lastmod>2025-05-29T10:09:52-05:00</lastmod></url><url><loc>http://datdiego.github.io/posts/axiom_micropatch/</loc><lastmod>2025-05-29T10:09:52-05:00</lastmod></url><url><loc>http://datdiego.github.io/about/</loc><lastmod>2025-04-11T00:00:00+00:00</lastmod></url></urlset>
