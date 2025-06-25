@@ -9,9 +9,6 @@ tags= ["SwRI", "ASI", "space systems", "news release"]
 categories= ["Projects"]
 +++
 
-
-# Enabling the Future of Space Logistics with Astroscale
-**All information presented here is publicly available**
 I’m excited to share that I’ve been part of a historic milestone in orbital servicing, the upcoming mission to refuel a U.S. Space Force satellite in geostationary orbit, led by Astroscale U.S. This mission, set to launch in 2026, will mark the first-ever in-space refueling of a national security asset and is a major step toward operationalizing on-orbit logistics.
 
 My role has focused on the APSR (Astroscale Prototype Servicer for Refueling) system, supporting integration and validation of key servicing components. APSR is designed to dock with satellites in GEO and perform hydrazine refueling using a refueling port developed by Orbit Fab. This capability not only extends the life of existing assets but also opens the door for future maneuverability and mission agility in space. It’s been a privilege to contribute to such a groundbreaking program that blends innovation, national security, and sustainability in space.

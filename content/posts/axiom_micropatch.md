@@ -9,8 +9,6 @@ tags= ["SwRI", "ISS", "space systems", "news release"]
 categories= ["Projects"]
 +++
 
-# Micropatching at the International Space Station tests
-
 I recently had the opportunity to work on a software update technique known as micropatching, and I'm proud to share that our algorithm was successfully tested aboard the International Space Station (ISS). This project focused on delivering critical software updates with maximum efficiency and minimal disruption to onboard systems.
 
 Unlike traditional update methods that transmit full software binaries, our micropatching approach sends only the small code changes needed to modify existing software in place. This greatly reduces bandwidth usage and speeds up the patching process—a major advantage for systems operating in constrained or remote environments like space.

@@ -56,6 +56,11 @@ publishDir = "docs"
     hideCategories = true
     hideSeries = true
      
+[params.sponsor]
+    enable = true
+    bio = "If you find this post helpful, please consider sponsoring."
+    link = "https://www.buymeacoffee.com/datdiego" # The link to your sponsor page
+
 
 [params.page]
     # DoIt NEW | 0.2.0 whether to hide a page from home page

@@ -1,16 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>diego</title>
-        <link>http://datdiego.github.io/</link>
-        <description>diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 24 Jun 2025 11:35:21 -0500</lastBuildDate>
-            <atom:link href="http://datdiego.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>print directory structure</title>
-    <link>http://datdiego.github.io/posts/cmds/tree_level/</link>
-    <pubDate>Tue, 24 Jun 2025 10:25:26 -0500</pubDate><author>
-                        <name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/cmds/tree_level/</guid>
-    <description><![CDATA[<p>Quick tip to print directory structure in the command line.</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>diego</title><link>http://datdiego.github.io/</link><description>diego</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 24 Jun 2025 11:35:21 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Physics informed neural networks</title><link>http://datdiego.github.io/posts/ai/pinns/</link><pubDate>Tue, 24 Jun 2025 10:35:48 -0500</pubDate><author><name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/ai/pinns/</guid><description><![CDATA[<p>Neural networks have proven to be powerful tools for solving complex physics problems  [[1],(https://www.pnas.org/doi/10.1073/pnas.1907373117) and partial differential equations (PDEs)[2],(https://www.sciencedirect.com/science/article/pii/S0021999119305364)[3],(https://arxiv.org/abs/1707.02568)[4],(https://arxiv.org/abs/1907.04502)<a href="https://www.sciencedirect.com/science/article/pii/S0021999118307125" target="_blank" rel="noopener noreferrer">5</a>] across various domains, including fluid dynamics[<a href="https://www.sciencedirect.com/science/article/abs/pii/S0045782519306814" target="_blank" rel="noopener noreferrer">6</a>], heat transfer[<a href="https://www.arxiv.org/pdf/2506.17726" target="_blank" rel="noopener noreferrer">7</a>], and quantum mechanics[<a href="https://www.mdpi.com/1099-4300/26/8/649" target="_blank" rel="noopener noreferrer">8</a>]. By leveraging their ability to approximate high-dimensional functions and learn non-linear relationships from data, neural networks have been applied to model complex physical systems with remarkable accuracy. In particular, advancements in deep learning have enabled the development of architectures that not only fit data but also incorporate governing physical laws, paving the way for more robust and interpretable solutions.</p>]]></description></item><item><title>print directory structure</title><link>http://datdiego.github.io/posts/cmds/tree_level/</link><pubDate>Tue, 24 Jun 2025 10:25:26 -0500</pubDate><author><name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/cmds/tree_level/</guid><description><![CDATA[<p>Quick tip to print directory structure in the command line.</p>
 <p>Requires <code>tree</code> library, usually comes with linux distros.</p>
 <div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
   <div class="
@@ -31,26 +19,10 @@
       aria-hidden="true">
           <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
-          <p class="tw-select-none !tw-my-1">bash</p>]]></description>
-</item><item>
-    <title>Astroscale/SwRI Refueler</title>
-    <link>http://datdiego.github.io/posts/apsr_lexi/</link>
-    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
-                        <name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/apsr_lexi/</guid>
-    <description><![CDATA[<div class="featured-image">
+          <p class="tw-select-none !tw-my-1">bash</p>]]></description></item><item><title>Astroscale/SwRI Refueler</title><link>http://datdiego.github.io/posts/apsr_lexi/</link><pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author><name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/apsr_lexi/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/images/posts/asi_apsr.webp" referrerpolicy="no-referrer">
-            </div><h1 id="enabling-the-future-of-space-logistics-with-astroscale" class="headerLink">
-    <a href="#enabling-the-future-of-space-logistics-with-astroscale" class="header-mark"></a>Enabling the Future of Space Logistics with Astroscale</h1><p><strong>All information presented here is publicly available</strong>
-I’m excited to share that I’ve been part of a historic milestone in orbital servicing, the upcoming mission to refuel a U.S. Space Force satellite in geostationary orbit, led by Astroscale U.S. This mission, set to launch in 2026, will mark the first-ever in-space refueling of a national security asset and is a major step toward operationalizing on-orbit logistics.</p>]]></description>
-</item><item>
-    <title>Micropatching in the ISS</title>
-    <link>http://datdiego.github.io/posts/axiom_micropatch/</link>
-    <pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author>
-                        <name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/axiom_micropatch/</guid>
-    <description><![CDATA[<div class="featured-image">
+            </div><p>I’m excited to share that I’ve been part of a historic milestone in orbital servicing, the upcoming mission to refuel a U.S. Space Force satellite in geostationary orbit, led by Astroscale U.S. This mission, set to launch in 2026, will mark the first-ever in-space refueling of a national security asset and is a major step toward operationalizing on-orbit logistics.</p>
+<p>My role has focused on the APSR (Astroscale Prototype Servicer for Refueling) system, supporting integration and validation of key servicing components. APSR is designed to dock with satellites in GEO and perform hydrazine refueling using a refueling port developed by Orbit Fab. This capability not only extends the life of existing assets but also opens the door for future maneuverability and mission agility in space. It’s been a privilege to contribute to such a groundbreaking program that blends innovation, national security, and sustainability in space.</p>]]></description></item><item><title>Micropatching in the ISS</title><link>http://datdiego.github.io/posts/axiom_micropatch/</link><pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author><name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/axiom_micropatch/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/images/posts/data_integrity.webp" referrerpolicy="no-referrer">
-            </div><h1 id="micropatching-at-the-international-space-station-tests" class="headerLink">
-    <a href="#micropatching-at-the-international-space-station-tests" class="header-mark"></a>Micropatching at the International Space Station tests</h1><p>I recently had the opportunity to work on a software update technique known as micropatching, and I&rsquo;m proud to share that our algorithm was successfully tested aboard the International Space Station (ISS). This project focused on delivering critical software updates with maximum efficiency and minimal disruption to onboard systems.</p>
-<p>Unlike traditional update methods that transmit full software binaries, our micropatching approach sends only the small code changes needed to modify existing software in place. This greatly reduces bandwidth usage and speeds up the patching process—a major advantage for systems operating in constrained or remote environments like space.</p>]]></description>
-</item></channel>
-</rss>
+            </div><p>I recently had the opportunity to work on a software update technique known as micropatching, and I&rsquo;m proud to share that our algorithm was successfully tested aboard the International Space Station (ISS). This project focused on delivering critical software updates with maximum efficiency and minimal disruption to onboard systems.</p>
+<p>Unlike traditional update methods that transmit full software binaries, our micropatching approach sends only the small code changes needed to modify existing software in place. This greatly reduces bandwidth usage and speeds up the patching process—a major advantage for systems operating in constrained or remote environments like space.</p>]]></description></item></channel></rss>

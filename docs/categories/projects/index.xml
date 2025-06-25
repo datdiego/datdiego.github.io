@@ -1,27 +1,7 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Projects - Category - diego</title>
-        <link>http://datdiego.github.io/categories/projects/</link>
-        <description>Projects - Category - diego</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 10:14:43 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/categories/projects/" rel="self" type="application/rss+xml" /><item>
-    <title>Astroscale/SwRI Refueler</title>
-    <link>http://datdiego.github.io/posts/apsr_lexi/</link>
-    <pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author>
-                        <name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/apsr_lexi/</guid>
-    <description><![CDATA[<div class="featured-image">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Projects - Category - diego</title><link>http://datdiego.github.io/categories/projects/</link><description>Projects - Category - diego</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 29 May 2025 10:14:43 -0500</lastBuildDate><atom:link href="http://datdiego.github.io/categories/projects/" rel="self" type="application/rss+xml"/><item><title>Astroscale/SwRI Refueler</title><link>http://datdiego.github.io/posts/apsr_lexi/</link><pubDate>Thu, 29 May 2025 10:14:43 -0500</pubDate><author><name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/apsr_lexi/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/images/posts/asi_apsr.webp" referrerpolicy="no-referrer">
-            </div><h1 id="enabling-the-future-of-space-logistics-with-astroscale" class="headerLink">
-    <a href="#enabling-the-future-of-space-logistics-with-astroscale" class="header-mark"></a>Enabling the Future of Space Logistics with Astroscale</h1><p><strong>All information presented here is publicly available</strong>
-I’m excited to share that I’ve been part of a historic milestone in orbital servicing, the upcoming mission to refuel a U.S. Space Force satellite in geostationary orbit, led by Astroscale U.S. This mission, set to launch in 2026, will mark the first-ever in-space refueling of a national security asset and is a major step toward operationalizing on-orbit logistics.</p>]]></description>
-</item><item>
-    <title>Micropatching in the ISS</title>
-    <link>http://datdiego.github.io/posts/axiom_micropatch/</link>
-    <pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author>
-                        <name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/axiom_micropatch/</guid>
-    <description><![CDATA[<div class="featured-image">
+            </div><p>I’m excited to share that I’ve been part of a historic milestone in orbital servicing, the upcoming mission to refuel a U.S. Space Force satellite in geostationary orbit, led by Astroscale U.S. This mission, set to launch in 2026, will mark the first-ever in-space refueling of a national security asset and is a major step toward operationalizing on-orbit logistics.</p>
+<p>My role has focused on the APSR (Astroscale Prototype Servicer for Refueling) system, supporting integration and validation of key servicing components. APSR is designed to dock with satellites in GEO and perform hydrazine refueling using a refueling port developed by Orbit Fab. This capability not only extends the life of existing assets but also opens the door for future maneuverability and mission agility in space. It’s been a privilege to contribute to such a groundbreaking program that blends innovation, national security, and sustainability in space.</p>]]></description></item><item><title>Micropatching in the ISS</title><link>http://datdiego.github.io/posts/axiom_micropatch/</link><pubDate>Thu, 29 May 2025 10:09:52 -0500</pubDate><author><name>diego</name><uri>http://datdiego.github.io/about/</uri></author><guid>http://datdiego.github.io/posts/axiom_micropatch/</guid><description><![CDATA[<div class="featured-image">
                 <img src="/images/posts/data_integrity.webp" referrerpolicy="no-referrer">
-            </div><h1 id="micropatching-at-the-international-space-station-tests" class="headerLink">
-    <a href="#micropatching-at-the-international-space-station-tests" class="header-mark"></a>Micropatching at the International Space Station tests</h1><p>I recently had the opportunity to work on a software update technique known as micropatching, and I&rsquo;m proud to share that our algorithm was successfully tested aboard the International Space Station (ISS). This project focused on delivering critical software updates with maximum efficiency and minimal disruption to onboard systems.</p>
-<p>Unlike traditional update methods that transmit full software binaries, our micropatching approach sends only the small code changes needed to modify existing software in place. This greatly reduces bandwidth usage and speeds up the patching process—a major advantage for systems operating in constrained or remote environments like space.</p>]]></description>
-</item></channel>
-</rss>
+            </div><p>I recently had the opportunity to work on a software update technique known as micropatching, and I&rsquo;m proud to share that our algorithm was successfully tested aboard the International Space Station (ISS). This project focused on delivering critical software updates with maximum efficiency and minimal disruption to onboard systems.</p>
+<p>Unlike traditional update methods that transmit full software binaries, our micropatching approach sends only the small code changes needed to modify existing software in place. This greatly reduces bandwidth usage and speeds up the patching process—a major advantage for systems operating in constrained or remote environments like space.</p>]]></description></item></channel></rss>
