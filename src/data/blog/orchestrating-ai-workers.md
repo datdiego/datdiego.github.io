@@ -78,8 +78,12 @@ Also, they can't do things like "run the dev server and click around." They're c
 3. **Documented progress** — Everything's in PROGRESS.md
 4. **Git history** — Workers commit their work (no Co-Authored-By though, they're not getting credit)
 
-## The Repo
+## The Docs
 
-I documented the whole setup at [orchestration-server-docs](https://github.com/datdiego/orchestration-server-docs). It includes how to set up workers, the file protocol, and various "I broke something" troubleshooting notes.
+I have a whole repo documenting this setup. It's private though. Not because there's anything secret in there — it's literally just markdown files about tmux commands — but because I don't want to be responsible when someone runs `--dangerously-skip-permissions` on their production server and blames me.
+
+*"But Diego, you could just add a disclaimer—"*
+
+It's private. Moving on.
 
 Now if you'll excuse me, I need to check on my workers. They've been suspiciously quiet.

@@ -85,13 +85,11 @@ The script uses `gcloud billing` commands to fetch costs and emails me a summary
 
 ## The Docs
 
-I documented everything at [orchestration-server-docs](https://github.com/datdiego/orchestration-server-docs):
-- Server setup
-- Phone SSH access
-- Security hardening
-- Worker orchestration
+I have documentation for all of this. Server setup, phone access, security stuff, the whole thing.
 
-Because future me will definitely forget how this all works.
+It's in a private repo. Why private? Because I documented my exact firewall rules, SSH config, and folder structure. Putting that on public GitHub feels like leaving my house keys under the doormat and tweeting the address.
+
+Future me will thank present me for this paranoia.
 
 ## Worth It?
 
