@@ -46,7 +46,9 @@ LiteLLM is the secret sauce here. It lets you call OpenAI, Anthropic, Google, Gr
 
 ## Current Progress
 
-An AI worker (yes, really) has been building this project. So far:
+An AI worker (yes, really) has been building this project. I have a whole orchestration system for autonomous Claude Code workers — it's documented in a private repo because I'm not about to explain to someone's boss why their server is now sentient.
+
+Anyway, here's the progress:
 
 **Milestone 1: Project Foundation** ✅
 - Next.js frontend with Tailwind
