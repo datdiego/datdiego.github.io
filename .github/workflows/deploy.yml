@@ -32,6 +32,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          PUBLIC_GOOGLE_ANALYTICS_ID: G-DWTSRRDJ1J
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
