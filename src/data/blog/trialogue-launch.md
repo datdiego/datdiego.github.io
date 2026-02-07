@@ -1,6 +1,6 @@
 ---
 author: Diego Alducin, Ph.D.
-pubDatetime: 2026-02-07T06:00:00Z
+pubDatetime: 2026-02-07T04:00:00Z
 title: "Trialogue Is Live: Lessons From Deploying My First AI App"
 slug: trialogue-launch
 featured: true
