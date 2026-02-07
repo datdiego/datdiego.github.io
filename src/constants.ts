@@ -1,6 +1,7 @@
 import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
+import IconKofi from "@/assets/icons/IconKofi.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
 import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
@@ -28,6 +29,12 @@ export const SOCIALS: Social[] = [
     href: "https://www.linkedin.com/in/alducin-diego/",
     linkTitle: `${SITE.author} on LinkedIn`,
     icon: IconLinkedin,
+  },
+  {
+    name: "Ko-fi",
+    href: "https://ko-fi.com/datdiego",
+    linkTitle: `Support ${SITE.author} on Ko-fi`,
+    icon: IconKofi,
   },
   {
     name: "Mail",
