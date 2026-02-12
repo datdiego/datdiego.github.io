@@ -11,10 +11,12 @@ tags:
   - mcp
   - tools
   - claude
-description: Testing nanobanana, an MCP server that lets Claude Code generate images on the fly. Spoiler — it involves bananas.
+description: How I connected Google's Imagen 4 to Claude Code via MCP, the difference between nanobanana and a custom server, and why your AI assistant should learn to draw.
 ---
 
-You know that feeling when you discover your IDE can do something you never expected? That's what happened when I stumbled into MCP image generation tools inside Claude Code.
+![A cartoon banana wearing a beret, painting on a tablet surrounded by code symbols](../../assets/images/nanobanana-banner.png)
+
+You know that feeling when you discover your IDE can do something you never expected? That's what happened when I started experimenting with MCP image generation tools inside Claude Code.
 
 ## What Even Is MCP?
 
@@ -22,24 +24,19 @@ MCP (Model Context Protocol) is basically a way to give your AI assistant superp
 
 Think of it like plugins, but standardized. One config file, and suddenly your coding assistant can also search Slack, query your database, or in this case... make art.
 
-## Enter the Banana
+## Two Bananas, One Goal
 
-[Nanobanana](https://github.com/Aeven-AI/mcp-nanobanana) is an MCP server that wraps image generation into a set of tools. Once connected, Claude Code gains the ability to:
+There's some naming confusion worth clearing up here.
 
-- **Generate images** from text prompts with style options
-- **Edit existing images** based on descriptions
-- **Create icons** in multiple sizes (app icons, favicons)
-- **Generate patterns** and seamless textures
-- **Create storyboards** — sequential images that tell a visual story
-- **Draw diagrams** — flowcharts, architecture diagrams, wireframes
+**[Nanobanana](https://github.com/Aeven-AI/mcp-nanobanana)** is a community-built npm MCP server (`@aeven/nanobanana-mcp`) that wraps image generation into a set of tools. It supports generating images, editing them, creating icons, patterns, storyboards, and diagrams — all from text prompts. It's a nice all-in-one package if you want something off the shelf.
 
-All from a text prompt, right in the terminal.
+**Google Imagen 4** (sometimes referred to by its internal codename "nanobanana") is the actual image generation model powering these tools. It's Google's latest diffusion model, available through the Gemini API under the `imagen-4.0-generate-001` endpoint. Think of it as the engine — nanobanana the MCP server is just one possible steering wheel.
 
-## Setting It Up
+I tried the npm package first but ran into issues with outdated model references. So I did what any reasonable person would do: I wrote my own MCP server in about 100 lines of Python that calls the Imagen 4 API directly.
 
-There are a few npm-based MCP servers out there (like `@aeven/nanobanana-mcp`), but I ran into issues with outdated model references. So I did what any reasonable person would do: I wrote my own in about 100 lines of Python.
+## The Custom Server
 
-The setup is simple. Create a Python script that implements the MCP protocol (JSON-RPC over stdio), wraps the Imagen 4.0 API, and saves images to disk. Then register it:
+The setup is dead simple. A Python script implements the MCP protocol (JSON-RPC over stdio), calls the Imagen 4 API, and saves generated images to disk. Register it in your Claude Code config:
 
 ```json
 {
@@ -56,7 +53,9 @@ The setup is simple. Create a Python script that implements the MCP protocol (JS
 }
 ```
 
-Restart Claude Code, and you've got image generation. The `MODEL_API_KEY` is a Google Gemini API key — Imagen 4.0 runs under the same project.
+Restart Claude Code, and you've got image generation. The `MODEL_API_KEY` is a Google Gemini API key — Imagen 4 runs under the same project and billing.
+
+The advantage over the npm package: you control exactly which model version you're hitting, there are no dependency issues, and you can customize the output (aspect ratios, file naming, output directories) however you want. The trade-off is you lose the fancier features like image editing and storyboards — but for generating blog banners and project assets, raw image generation is all I need.
 
 ## What Can You Actually Do With This?
 
@@ -77,20 +76,20 @@ No context switching. No opening Figma. No searching stock photo sites for "prog
 
 ## The Bigger Picture
 
-MCP is turning coding assistants into something more like operating systems. Each MCP server is a capability module — plug in what you need, unplug what you don't. My current setup has nanobanana for images, and I'm eyeing a few others:
+MCP is turning coding assistants into something more like operating systems. Each MCP server is a capability module — plug in what you need, unplug what you don't. My current setup has the Imagen server for images, and I'm eyeing a few others:
 
 - **Playwright** for browser automation and testing
 - **Supabase** for direct database operations
 - **GitHub** for PR management without leaving the terminal
 
-The ecosystem is growing fast. The [MCP marketplace](https://github.com/anthropics/claude-code) already has dozens of servers, and the community is building more every week.
+The ecosystem is growing fast. The community is building new MCP servers every week, and the protocol is becoming the standard way to extend AI coding tools.
 
 ## Should You Try It?
 
-If you're already using Claude Code, adding an MCP server takes about 30 seconds. The image generation quality is solid (it's Google Imagen under the hood), and having it available in your coding workflow is genuinely useful — not just for fun, but for generating actual project assets.
+If you're already using Claude Code, adding an MCP server takes about 30 seconds. The image generation quality from Imagen 4 is genuinely impressive, and having it available in your coding workflow is useful — not just for fun, but for generating actual project assets on the fly.
 
-Plus, you get to tell people your AI assistant has an art degree. That's worth something.
+Just don't confuse the model (Imagen 4 / "nanobanana") with the MCP server (nanobanana npm package). Or do — at least it makes for a good conversation starter.
 
 ---
 
-*The banner image for this post was generated using our custom Imagen MCP server, right from the terminal. The irony of an AI writing about an AI's art tools is not lost on me.*
+*The banner image for this post was generated using our custom Imagen 4 MCP server, right from the terminal. Meta? Maybe. Useful? Definitely.*
