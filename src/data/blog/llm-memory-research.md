@@ -5,6 +5,7 @@ title: I Asked Three AIs How to Fix AI Memory (Here's What They Said)
 slug: llm-memory-research
 featured: true
 draft: false
+ogImage: ../../assets/images/llm-memory-banner.png
 tags:
   - ai
   - research
@@ -13,6 +14,8 @@ tags:
   - architecture
 description: I asked Claude, ChatGPT, and Gemini to research how to build persistent, model-agnostic memory for LLM assistants. Their answers were surprisingly consistent — and surprisingly practical.
 ---
+
+![A layered memory architecture for AI — three glowing tiers of working memory, session storage, and long-term semantic memory](../../assets/images/llm-memory-banner.png)
 
 If you've spent enough time with AI coding assistants, you've hit the wall. That moment where your assistant forgets the decision you made 20 minutes ago, or confidently re-suggests something you already rejected three turns back.
 
