@@ -12,6 +12,7 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 import GitActivity from "@/components/GitActivity.astro";
+import FeaturedTools from "@/components/FeaturedTools.astro";
 
 const posts = await getCollection("blog");
 
@@ -66,6 +67,8 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         )
       }
     </section>
+
+    <FeaturedTools />
 
     {
       featuredPosts.length > 0 && (

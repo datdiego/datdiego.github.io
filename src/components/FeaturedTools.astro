@@ -1,0 +1,186 @@
+---
+interface Tool {
+  name: string;
+  description: string;
+  href: string | null;
+  image: string;
+  imageAlt: string;
+  comingSoon?: boolean;
+}
+
+const tools: Tool[] = [
+  {
+    name: "TROTA",
+    description: "Running analytics for Garmin data",
+    href: "https://trota.vercel.app",
+    image: "/images/tools/trota.png",
+    imageAlt: "TROTA running analytics app",
+  },
+  {
+    name: "Trialogue",
+    description: "Multi-LLM comparison chat",
+    href: "https://trialogue-dun.vercel.app",
+    image: "/images/tools/trialogue.png",
+    imageAlt: "Trialogue multi-LLM comparison app",
+  },
+  {
+    name: "Calisthenics",
+    description: "Bodyweight workout generator",
+    href: null,
+    image: "/images/tools/calisthenics.png",
+    imageAlt: "Calisthenics workout generator app",
+    comingSoon: true,
+  },
+];
+---
+
+<section id="featured-tools" class="pt-12 pb-6 border-b border-border">
+  <h2 class="text-2xl font-semibold tracking-wide mb-6">Tools</h2>
+  <div class="tools-grid">
+    {tools.map(tool => (
+      <div class="tool-card">
+        <div class="tool-image-wrap">
+          <img
+            src={tool.image}
+            alt={tool.imageAlt}
+            class="tool-image"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+        <div class="tool-body">
+          <div class="tool-header">
+            <h3 class="tool-name">{tool.name}</h3>
+            {tool.comingSoon && (
+              <span class="coming-soon-badge">coming soon</span>
+            )}
+          </div>
+          <p class="tool-desc">{tool.description}</p>
+          {tool.href ? (
+            <a
+              href={tool.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="tool-link"
+            >
+              Visit →
+            </a>
+          ) : (
+            <span class="tool-link-placeholder">In development</span>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .tools-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .tools-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .tools-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .tool-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--background);
+    transition: border-color 0.15s ease;
+  }
+
+  .tool-card:hover {
+    border-color: var(--accent);
+  }
+
+  .tool-image-wrap {
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+    background-color: var(--muted);
+  }
+
+  .tool-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .tool-body {
+    padding: 0.875rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .tool-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .tool-name {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--foreground);
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+
+  .coming-soon-badge {
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    background-color: var(--muted);
+    color: var(--accent);
+    border: 1px solid var(--border);
+    text-transform: lowercase;
+    letter-spacing: 0.03em;
+  }
+
+  .tool-desc {
+    font-size: 0.875rem;
+    color: var(--foreground);
+    opacity: 0.75;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .tool-link {
+    font-size: 0.825rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    margin-top: 0.25rem;
+    display: inline-block;
+  }
+
+  .tool-link:hover {
+    text-decoration: underline;
+  }
+
+  .tool-link-placeholder {
+    font-size: 0.825rem;
+    color: var(--foreground);
+    opacity: 0.4;
+    margin-top: 0.25rem;
+    display: inline-block;
+    font-style: italic;
+  }
+</style>
