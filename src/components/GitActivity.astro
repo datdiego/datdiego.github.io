@@ -58,46 +58,54 @@ function truncate(msg: string, max = 60) {
 }
 ---
 
-{
-  allCommits.length > 0 && (
-    <section id="git-activity" class="pt-12 pb-6 border-t border-border">
-      <h2 class="text-2xl font-semibold tracking-wide mb-4">Recent Activity</h2>
-      <div class="overflow-x-auto">
-        <table class="git-table w-full text-sm">
-          <thead>
+<section id="git-activity" class="pt-12 pb-6 border-t border-border">
+  <h2 class="text-2xl font-semibold tracking-wide mb-4">Recent Activity</h2>
+  <div class="overflow-x-auto">
+    <table class="git-table w-full text-sm">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Repo</th>
+          <th>Commit</th>
+        </tr>
+      </thead>
+      <tbody>
+        {allCommits.length > 0 ? (
+          allCommits.map(commit => (
             <tr>
-              <th>Date</th>
-              <th>Repo</th>
-              <th>Commit</th>
+              <td class="date-cell">{formatDate(commit.date)}</td>
+              <td class="repo-cell">
+                <span class="repo-badge">{commit.repo}</span>
+              </td>
+              <td class="message-cell">
+                <a
+                  href={commit.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="commit-link"
+                  title={commit.message}
+                >
+                  <code class="sha">{commit.sha}</code>
+                  {truncate(commit.message)}
+                </a>
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            {allCommits.map(commit => (
-              <tr>
-                <td class="date-cell">{formatDate(commit.date)}</td>
-                <td class="repo-cell">
-                  <span class="repo-badge">{commit.repo}</span>
-                </td>
-                <td class="message-cell">
-                  <a
-                    href={commit.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="commit-link"
-                    title={commit.message}
-                  >
-                    <code class="sha">{commit.sha}</code>
-                    {truncate(commit.message)}
-                  </a>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </section>
-  )
-}
+          ))
+        ) : (
+          <tr>
+            <td class="date-cell">-</td>
+            <td class="repo-cell">
+              <span class="repo-badge">unavailable</span>
+            </td>
+            <td class="message-cell">
+              Commit data is currently unavailable. Please check back soon.
+            </td>
+          </tr>
+        )}
+      </tbody>
+    </table>
+  </div>
+</section>
 
 <style>
   .git-table {

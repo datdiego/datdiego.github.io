@@ -17,6 +17,8 @@ A couple weeks ago I wrote about [setting up autonomous AI workers](/posts/orche
 
 This weekend it became something else entirely.
 
+![Night shift dashboard and commit pipeline](/images/night-shift-hero.png)
+
 ## The Numbers
 
 Between Saturday and Monday morning, the system produced:
