@@ -1,0 +1,181 @@
+---
+interface Commit {
+  sha: string;
+  date: string;
+  message: string;
+  url: string;
+  repo: string;
+}
+
+const repos = [
+  "datdiego/trialogue",
+  "datdiego/TROTA",
+  "datdiego/datdiego.github.io",
+  "datdiego/calisthenics",
+];
+
+async function fetchCommits(repo: string): Promise<Commit[]> {
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${repo}/commits?per_page=10`,
+      {
+        headers: {
+          Accept: "application/vnd.github+json",
+          "User-Agent": "datdiego-blog-build",
+        },
+      }
+    );
+    if (!res.ok) return [];
+    const data = await res.json();
+    return data.map((item: any) => ({
+      sha: item.sha.slice(0, 7),
+      date: item.commit.author.date,
+      message: item.commit.message.split("\n")[0],
+      url: item.html_url,
+      repo: repo.split("/")[1],
+    }));
+  } catch {
+    return [];
+  }
+}
+
+const allCommitsNested = await Promise.all(repos.map(fetchCommits));
+const allCommits = allCommitsNested
+  .flat()
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, 15);
+
+function formatDate(iso: string) {
+  return new Date(iso).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+}
+
+function truncate(msg: string, max = 60) {
+  return msg.length > max ? msg.slice(0, max) + "…" : msg;
+}
+---
+
+{
+  allCommits.length > 0 && (
+    <section id="git-activity" class="pt-12 pb-6 border-t border-border">
+      <h2 class="text-2xl font-semibold tracking-wide mb-4">Recent Activity</h2>
+      <div class="overflow-x-auto">
+        <table class="git-table w-full text-sm">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Repo</th>
+              <th>Commit</th>
+            </tr>
+          </thead>
+          <tbody>
+            {allCommits.map(commit => (
+              <tr>
+                <td class="date-cell">{formatDate(commit.date)}</td>
+                <td class="repo-cell">
+                  <span class="repo-badge">{commit.repo}</span>
+                </td>
+                <td class="message-cell">
+                  <a
+                    href={commit.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="commit-link"
+                    title={commit.message}
+                  >
+                    <code class="sha">{commit.sha}</code>
+                    {truncate(commit.message)}
+                  </a>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .git-table {
+    border-collapse: collapse;
+    color: var(--foreground);
+  }
+
+  .git-table thead tr {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .git-table th {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    font-weight: 600;
+    color: var(--foreground);
+    opacity: 0.6;
+    white-space: nowrap;
+  }
+
+  .git-table td {
+    padding: 0.5rem 0.75rem;
+    vertical-align: top;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .git-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .git-table tbody tr:hover {
+    background-color: var(--muted);
+  }
+
+  .date-cell {
+    white-space: nowrap;
+    opacity: 0.7;
+    font-size: 0.8rem;
+  }
+
+  .repo-cell {
+    white-space: nowrap;
+  }
+
+  .repo-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    background-color: var(--muted);
+    color: var(--accent);
+    border: 1px solid var(--border);
+    text-transform: lowercase;
+    letter-spacing: 0.02em;
+  }
+
+  .message-cell {
+    max-width: 40ch;
+  }
+
+  .commit-link {
+    color: var(--foreground);
+    text-decoration: none;
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .commit-link:hover {
+    color: var(--accent);
+  }
+
+  .sha {
+    font-size: 0.7rem;
+    opacity: 0.5;
+    font-family: monospace;
+    flex-shrink: 0;
+  }
+</style>
