@@ -70,9 +70,7 @@ html[data-theme="dark"] {
   body {
     @apply flex min-h-svh flex-col bg-background font-app text-foreground selection:bg-accent/75 selection:text-background;
   }
-<<<<<<< HEAD
 
-=======
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     letter-spacing: -0.02em;
@@ -80,7 +78,6 @@ html[data-theme="dark"] {
   code, pre, kbd, samp {
     font-family: var(--font-mono);
   }
->>>>>>> c103068 (Add GitActivity component and update font system)
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
