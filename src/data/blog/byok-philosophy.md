@@ -74,13 +74,13 @@ So when you paste your key into an app, you need to trust that app. This is wher
 
 Could I be lying? Sure. That's why the code is open source. Check it yourself.
 
-## The Business Model Question
+## The Sustainability Question
 
-"If you're not charging subscriptions, how do you make money?"
+"If users bring their own keys, how does this sustain itself?"
 
-Honestly? I'm figuring that out. Right now there's a [Ko-fi](https://ko-fi.com/datdiego) link if you want to support the project. If it gets traction, maybe I'll add optional premium features — things like saved presets, export tools, team sharing. Stuff that adds value without gatekeeping the core functionality.
+That's the beauty of BYOK — the hosting costs are near zero. There's no API bill to cover, no infrastructure to scale with each user. The app is a thin client that connects you to providers you already pay for. As long as Vercel and Railway have free tiers, this costs me nothing to run.
 
-But the fundamental promise stays: the basic app is free, and you only pay for the AI you actually use.
+It's a personal tool that I built for myself and decided to share. Sustainability isn't about revenue — it's about keeping the architecture simple enough that it doesn't need revenue.
 
 ## When BYOK Makes Sense
 

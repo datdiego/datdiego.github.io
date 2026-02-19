@@ -71,4 +71,4 @@ If you want to try Trialogue: **[trialogue-dun.vercel.app](https://trialogue-dun
 
 Source code: **[github.com/datdiego/trialogue](https://github.com/datdiego/trialogue)**
 
-And if you find it useful, [buy me a coffee on Ko-fi](https://ko-fi.com/datdiego).
+And if you find it useful, let me know — feedback is always welcome.

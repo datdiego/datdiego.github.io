@@ -61,7 +61,7 @@ Here's what actually happened this weekend, project by project:
 
 ### TROTA (Running Analytics App)
 Started with: Google OAuth implementation needed.
-Ended with: Complete freemium subscription system — OAuth login, 3 subscription tiers, cache-only free tier, pro tier with full DB access, subscription management API, upgrade CTAs throughout the UI, security audit passed, design system applied. **93 tests passing.**
+Ended with: Complete user management system — OAuth login, role-based access control, caching layer, full database integration, user settings API, security audit passed, design system applied. **93 tests passing.**
 
 That's 22 commits. One developer would take a week. The workers did it in 48 hours.
 
@@ -105,7 +105,7 @@ The orchestrator sends me email reports with tables showing project status, test
 
 **The orchestrator pattern matters.** Without the orchestrator managing the pipeline, you'd have chaos. Workers don't know what other workers did. They don't know what phase the project is in. The orchestrator tracks everything and makes sure work flows in the right direction.
 
-**You still need humans for decisions.** The system generates logos and I pick which ones I like. It builds subscription tiers and I decide the pricing model. It applies themes and I say "that font is wrong." The creative and strategic decisions are still mine.
+**You still need humans for decisions.** The system generates logos and I pick which ones I like. It builds features and I decide which ones ship. It applies themes and I say "that font is wrong." The creative and strategic decisions are still mine.
 
 **Failure recovery is automatic.** When a Gemini worker fails, the orchestrator notes it as a blocker, relaunches with a different model, and moves on. When tests fail, it sends the code back to dev. The system handles failure as part of the normal flow, not as a crisis.
 

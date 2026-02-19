@@ -92,14 +92,14 @@ Three models is a good number. Two is just "compare." Four feels crowded. Three 
 
 It's like having a panel of experts, except they're all hallucinating with varying confidence levels.
 
-## Free Tier Hacking
+## Building Within Constraints
 
-The app will suggest free-tier models when available:
-- **Gemini 1.5 Flash** — Google's free tier is generous
-- **Groq** — Stupid fast, has a free tier
-- **Claude Haiku** — Limited free tier exists
+The app suggests models that are free or cheap to use:
+- **Gemini 1.5 Flash** — Google's free API tier is generous
+- **Groq** — Stupid fast, free API access
+- **Claude Haiku** — Lightweight and affordable
 
-So you can test the app without spending money. Nice, right?
+So you can try the app without any real cost. Nice, right?
 
 ## What's Next
 
