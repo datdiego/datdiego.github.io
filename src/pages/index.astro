@@ -11,7 +11,7 @@ import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
-import GitActivity from "@/components/GitActivity.astro";
+import ContributionChart from "@/components/ContributionChart.astro";
 import FeaturedTools from "@/components/FeaturedTools.astro";
 
 const posts = await getCollection("blog");
@@ -110,7 +110,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </LinkButton>
     </div>
 
-    <GitActivity />
+    <ContributionChart />
   </main>
   <Footer />
 </Layout>
