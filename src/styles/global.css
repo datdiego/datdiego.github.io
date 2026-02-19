@@ -11,21 +11,21 @@
 
 :root,
 html[data-theme="light"] {
-  /* Required by theme */
-  --background: #FAF7F2; /* parchment */
+  /* mercado-sunrise light theme */
+  --background: #FFF7EC; /* warm cream */
   --foreground: #1F2933; /* charcoal ink */
-  --accent: #1E3A5F;     /* Talavera blue */
-  --muted: #F3EEE6;      /* paper surface */
-  --border: rgba(31, 41, 51, 0.14);
+  --accent: #CF6A00;     /* amber orange */
+  --muted: #F3E6D6;      /* warm parchment */
+  --border: rgba(31, 41, 51, 0.10);
 
-  /* Extra (for chef’s-kiss styling) */
-  --muted-text: #6B6F76;
-  --link: #1E3A5F;
-  --link-hover: #2A4F7C;
-  --code-bg: rgba(31, 41, 51, 0.06);
-  --code-border: rgba(31, 41, 51, 0.16);
-  --secondary: #C4623A; /* terracotta */
-  --texture-opacity: 0.035;
+  /* Extra */
+  --muted-text: #6F6357;
+  --link: #3575A2;
+  --link-hover: #2C648B;
+  --code-bg: rgba(31, 41, 51, 0.055);
+  --code-border: rgba(31, 41, 51, 0.14);
+  --secondary: #EB8F2C; /* sunrise amber */
+  --texture-opacity: 0.02;
 }
 
 html[data-theme="dark"] {
