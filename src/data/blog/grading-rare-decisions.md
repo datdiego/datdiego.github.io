@@ -4,7 +4,7 @@ pubDatetime: 2026-07-21T16:00:00Z
 title: My Trading Agent Acts Twice a Week. Here's How I Grade It Anyway.
 slug: grading-rare-decisions
 featured: false
-draft: false
+draft: true
 tags:
   - ai-agents
   - finance
