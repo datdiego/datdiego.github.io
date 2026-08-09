@@ -4,7 +4,7 @@ pubDatetime: 2026-08-09T16:00:00Z
 title: This LSTM Rediscovered a Classic Trading Factor — Crashes Included
 slug: lstm-sector-embeddings
 featured: false
-draft: true
+draft: false
 tags:
   - machine-learning
   - deep-learning
