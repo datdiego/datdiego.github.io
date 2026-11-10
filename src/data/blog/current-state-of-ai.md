@@ -1,10 +1,10 @@
 ---
 author: Diego Alducin, Ph.D.
-pubDatetime: 2026-11-10T15:38:45Z
+pubDatetime: 2026-11-10T15:39:29Z
 title: "Current State of AI"
 slug: current-state-of-ai
 featured: false
-draft: true
+draft: false
 tags:
   - ai
   - security
