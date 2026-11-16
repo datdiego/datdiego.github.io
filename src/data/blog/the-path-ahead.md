@@ -1,10 +1,10 @@
 ---
 author: Diego Alducin, Ph.D.
-pubDatetime: 2026-11-16T17:53:34Z
+pubDatetime: 2026-11-16T17:54:11Z
 title: "The path ahead"
 slug: the-path-ahead
 featured: false
-draft: true
+draft: false
 tags:
   - ai
   - assistant
